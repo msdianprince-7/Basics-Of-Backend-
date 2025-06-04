@@ -5,7 +5,7 @@ const app= express();
 import mongoose from "mongoose";
 import { UserModel,TodoModel } from "./db.js";
 import jwt from "jsonwebtoken"
-const JWT_SECRET = "sdfbdsjfkbsjfbaskjbf";
+const JWT_SECRET = "";
 
 mongoose.connect("")
 
